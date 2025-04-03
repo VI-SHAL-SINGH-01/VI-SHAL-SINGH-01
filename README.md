@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @VI-SHAL-SINGH-01
 - 👀 I’m interested in Full Stack Web Developer.
-- 🌱 I’m currently learning backend technologies such as Javascript, Node.js and java.
+- 🌱 I’m currently learning backend technologies such as Javascript, Node.js,python and django.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me -
 -     Email id     : innovationcodin@gmail.com
