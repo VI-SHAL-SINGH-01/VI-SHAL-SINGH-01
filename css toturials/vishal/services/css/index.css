@@ -1,0 +1,104 @@
+/* box-sizing: cover; */
+:root{
+    --main-color:#191E3B;
+    --sub-color:#FFFFFF;
+    --black-color:#000000;
+    --light-black:#191919;
+    --border:0.1px solid black;
+
+}
+body{ padding:0px; margin:0px; font-size: 0.7rem;  box-sizing: border-box; word-wrap: break-word; background-size: cover;}
+#header{width:100%;}
+
+/* Banner div start from here */
+
+#headerBanner{height:auto;border:var(--border);border-radius:20px;}
+
+/* Navigation link's logo section  start from here */
+
+#headerNav{height:30px;display:flex;background-color:var(--border);justify-content: space-between; }
+#headerLogoAndMainHeader{width:100%;height:auto;display:flex; justify-content:space-between;align-items: center;}
+#headerLogo{display:flex; width:auto;height:100%;}
+#headerLogonName{font-family:cursive; padding-inline:7px 20px;align-content: center;width:auto; height:100%; border:1px solid green;}
+#headerShopTravel{margin-left:10px;width:auto;height:100%; align-items :center; justify-content: center; align-content: center;}
+
+/* Navigation links main anchor tags start from here */
+
+#mainHeader{ padding:0px;}
+#headerNavLinks{position: relative;box-sizing: content-box; display: flex; justify-content: flex-end; list-style: none; justify-content: center;  align-items: center; }
+#headerNavLinks li{padding-right: 30px; }
+#headerNavLinks li a{text-decoration:none; color:black;}  
+#headerButton{border-radius: 10px; }
+
+/* info box will start from hear */
+#info{border:var(--border); min-width:100%;  margin-top:1px;box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;}
+#need{ border:var(--border);}
+#need ol{ display:flex;justify-content: center;}
+#need li{display:flex;  list-style: none; padding-inline: 8px;font-size: 0.8em;}
+
+/* infoBox implamantation start here */
+
+#infoBox{ min-width:100%;}
+#infoBox form{ height:20px;display:flex;padding:5px;}
+label{color:red;padding-inline:0px;width:auto; overflow-y: hidden;  }
+#infobox form input{padding:20px;background-color:blue;width:auto; }
+ 
+    /* main content of div start from hare */
+
+#main{margin-top:2px;}
+
+    /* cardSlider start from hare */
+
+.cardSlider{width:100%;height:190px;}
+.card{width:150px;height:100%;}
+.cardImage{height:100%; width:100%; } 
+.cardImage img{height:100%; width:100%; }
+
+
+
+    /* section code start from hare */
+#mainSection{display: flex;margin-top:0px;}
+.sect1{border:1px solid green;width:20%;height:100vh;}
+.sect2{border:1px solid yellow;width: 80%;height:100vh;}
+footer{ position:absolute;right:50%;border:1px solid red;height:30px;padding:0px;align-items: center;}
+
+
+
+ @media only screen and (min-width:1200px){
+    .cardSlider{width:100%;height:190px;display:flex;justify-content: space-between;}
+    .card{width:150px;height:180px;border: 1px solid black;margin:auto;}
+    .cardImage{height:100%; width:100%; background-color: blue; width:100%;border: 2px solid black;} 
+    .cardImage img{height:100%; width:100%;}
+}
+@media only screen and (max-width:992px){
+    .cardSlider{width:100%;height:190px;display:flex; justify-content:space-between;}
+    /* .cardSlider{width:100%;height:190px;display: grid; grid-template-columns: 1fr 1fr 1fr;  justify-content: center; align-items: center;} */
+
+   
+}
+
+@media only screen and (max-width:768px){  
+    #mainHeader{visibility:collapse}    
+    #headerLogo{width:100%;justify-items: space-between;}  
+    #headerShopTravel{display: inline-flex; min-width: 100%;} 
+     
+        /* card implimantation form here */
+
+        /* .cardSlider{width:100%;height:190px;display: grid; grid-template-columns: auto;  justify-content: center; align-items: center;}
+        .card{width:150px;height:180px;border: 1px solid black;margin:auto;}
+        .cardImage{height:100%; width:100%; background-color: blue; width:100%;border: 2px solid black;} 
+        .cardImage img{height:100%; width:100%;aspect-ratio: 1/20; }
+     */
+    
+}
+@media only screen and (max-width:600px){
+    /* #mainHeader{visibility:collapse} */
+    /* #headerLogo{width:100%;justify-items: space-between;} */
+    /* #headerShopTravel{}         */
+    /* #infoBox input, #infoBox label{padding:1px;}      */
+    /* .cardSlider{display: grid; grid-template-columns: auto ; }
+    .card{width:150px;height:180px;}
+    .cardImage{height:100%; width:100%;} 
+    .cardImage img{height:100%; aspect-ratio: 1/20; } */
+
+}
