@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me -
 -     Email id     : innovationcodin@gmail.com
--     Instagram id : vi_sh@l_singh
+-     Instagram id : vi_shal_sin_gh
 - 😄 Pronouns: He.
 - ⚡ Fun fact: ...
 
